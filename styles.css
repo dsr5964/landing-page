@@ -23,12 +23,14 @@ a {
   background-color: #1f2937;
   color: white;
   flex-direction: column;
+  padding: 0 40px;
 }
 
 .header-text {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 16px 0;
 }
 
 ul {
@@ -67,19 +69,17 @@ button {
 
 .call-to-action {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 500px;
+  align-items: center;
+  gap: 40px;
   color: #e5e7eb;
-  flex: 1;
-  height: 200px;
-  margin-bottom: 100px;
+  padding: 40px 0 60px 0;
 }
 
 .header-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  gap: 12px;
+  flex: 1;
 }
 
 .hero {
