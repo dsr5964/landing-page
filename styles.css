@@ -56,18 +56,18 @@ a {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
   background-color: #3882f6;
   width: 120px;
   border: 2px solid #3882f6;
-  font-weight: 600;
   padding: 5px 10px;
   font-size: 16px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
-.call-to-action {
+.main-header-section {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -115,10 +115,6 @@ h2 {
   max-width: 150px;
 }
 
-#call-to-action-button {
-  border: 1px solid white;
-}
-
 .quote-section h4 {
   margin-top: 0;
 }
@@ -144,4 +140,38 @@ h2 {
   justify-content: flex-end;
   padding-right: 40px;
   margin: 0;
+}
+
+.call-to-action-section {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  padding: 20px 100px;
+  margin: 60px 120px;
+  border-radius: 5px;
+}
+
+.call-to-action-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.call-to-action-text h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.call-to-action-text p {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+#button-outline {
+  border: 2px solid white;
+}
+
+.call-to-action-section button {
+  margin: auto;
+  flex-shrink: 0;
 }
