@@ -95,23 +95,53 @@ h2 {
 }
 
 .rounded-box {
-  width: 100px;
-  border: 2px solid blue;
-  border-radius: 15px;
-  height: 100px;
+  width: 120px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 120px;
   margin: auto;
 }
 
-.main-section {
+.information-header {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   gap: 10px;
 }
 
 .subtext {
   display: flex;
   text-align: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  max-width: 150px;
+}
+
+#call-to-action-button {
+  border: 1px solid white;
+}
+
+.quote-section h4 {
+  margin-top: 0;
+}
+
+.quote-section p {
+  margin-bottom: 0;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 80px 200px 80px 200px;
+  margin: 50px 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#quote-origin {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  margin: 0;
 }
